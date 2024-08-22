@@ -3,10 +3,10 @@ body {
   padding: 0;
   min-width: 960px;
 
-  font-family: serif;
+  font-family: 'Times New Roman';
   font-size: 16px;
   line-height: 32px;
-  color: #f2f2f2;
+  color: black;
 
   background-color: #060514;
   background-image: url("img/hero-bg.jpg");
@@ -74,63 +74,8 @@ body {
 }
 
 .portfolio-header {
-  text-transform: uppercase;
+  display: none;
 }
-
-/*
-.user-image {
-  margin: 0 0 32px;
-  text-align: center;
-}
-
-.intro h3,
-.portfolio h3 {
-  margin: 0 0 12px;
-  font-size: 28px;
-  line-height: 40px;
-  font-weight: 500;
-}
-
-.intro p {
-  margin: 0 0 32px;
-}
-
-.skills-list {
-  margin: 0;
-  padding: 0;
-}
-
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
-}
-
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #080208;
-  border: 1px solid #712073;
-  border-radius: 8px;
-}
-
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #fea18d;
-  border-radius: 6px;
-}
-*/
 
 .portfolio {
   margin: 0 0;  
@@ -214,6 +159,7 @@ body {
 }
 .project-details li {
   padding-bottom: 15px;
+  color: white;
 
   font-size: 12px;
   line-height: normal;
@@ -254,7 +200,17 @@ body {
 }
 
 .page-footer {
-//  background-color: #260c26;
+  display: flex;
+  justify-content: space-between;
+  background-color: #260c26;
+}
+.footer-bio {
+  padding: 25px 40px;
+  color: #fea18d;
+}
+.footer-contacts {
+  padding: 40px;
+  text-align: right;
 }
 
 .page-footer .container {
